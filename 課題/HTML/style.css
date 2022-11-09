@@ -1,0 +1,158 @@
+@charset"UTF-8";
+
+body{
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.header{
+    background-image: url(../2022素材/内装１.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: #a9844a;
+    color: white;
+    text-align: center;
+    padding: 100px 5px 5px;
+}
+
+
+
+.wf-anton{
+    font-family: "Corben" , cursive;
+}
+
+.main{
+    background:#d7c8b0;
+    padding: 10px 0 40px 0;
+}
+.main2{
+    color:white;
+    text-align: center;
+    margin: 40px 0;
+}
+.main img{
+    width: 25%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex>p{
+    width: 70%;
+}
+.flex img{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+.mokuji{
+    background: white;
+    width: 300px;
+    height: 225px;
+    padding: 10px;
+    margin: 75px auto 0px;
+    border-radius: 100px;
+    line-height: 40px;
+}
+.mokuji h3{
+    text-align: center;
+    margin: 0;
+}
+.mokuji ul{
+    margin: 10px 0;
+}
+.mokuji a{
+    color: #2a5c84;
+    padding: 5px 10px;
+    margin: 0 3px;
+    border: solid 1px white;
+    border-radius:10px;
+    transition:all.5s;
+}
+.mokuji a:hover{
+    background:#2a5c84;
+    color:white;
+}
+
+
+.contents{
+    background: white;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.contents p{
+    padding-left: 5px;
+    border-left:solid 10px #2da9af;
+}
+.contents b{
+    color:orangered;
+}
+.contents ol{
+    margin: 10px 0;
+}
+.circle{
+    width: 20px;
+    margin: 40px auto;
+}
+.circle div{
+    background :  white;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+.contents img{
+    width: 50;
+    height: 100;
+    border-radius: 30px;
+}
+
+
+.information{
+    background: rgb(255, 255, 255);
+    background-size: cover;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.information p{
+    padding-left: 5px;
+    border-left:solid 10px #2da9af;
+}
+.information b{
+    color:orangered;
+}
+.information ol{
+    margin: 10px 0;
+}
+.cinformation{
+    width: 20px;
+    margin: 40px auto;
+}
+.information div{
+    background :  white;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+.information image{
+    width: 50%;
+    opacity: 0.5;
+}
+
+
+.footer{
+    background: #f76560;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+html{
+    scroll-behavior: smooth;
+}
